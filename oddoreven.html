@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>oddoreven</title>
+    </head>
+    <body>
+        <script>
+            // function checkOddOrEven(number) {
+                
+            //         if (number % 2 === 0) {
+            //             document.write(number + " is even.");
+            //         } else {
+            //             document.write(number + " is odd.");
+            //         }
+               
+            // }
+
+            // var number = prompt("Enter a number:");
+            // checkOddOrEven(number);
+            function checkNumber(userInput){
+                if(!isNaN(userInput)){
+                    document.write(userInput + " is a number")
+                }
+                else{
+                    document.write(userInput + " is not a number")
+                }
+            }
+            var userInput = prompt("Enter an Input:")
+            checkNumber(userInput)
+        </script>
+    </body>
+</html>

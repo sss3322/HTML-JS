@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Callback</title>
+    </head>
+    <body>
+        <script>
+            function greetUser(name, callback){
+                document.write("Hello," + name + "!<br>");
+                callback();
+            }
+            function showEndMessage(){
+                document.write("process complete");
+            }
+            greetUser("John", showEndMessage);
+        </script>
+    </body>
+</html>

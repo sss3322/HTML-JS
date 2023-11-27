@@ -1,0 +1,46 @@
+.main{
+    height: 100vh;
+    background-color:aqua;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: "one two two"
+    "one three four"
+    "one three four"
+    "one five five"
+    "one six seven"
+    "eight eight eight";
+    gap: 2px 2px;
+    background-color: red;
+}
+.item1{
+    background-color: green;
+    grid-area: one;
+}
+.item2{
+    background-color: green;
+    grid-area: two;
+}
+.item3{
+    background-color: green;
+    grid-area: three;
+}
+.item4{
+    background-color: green;
+    grid-area: four;
+}
+.item5{
+    background-color: green;
+    grid-area: five;
+}
+.item6{
+    background-color: green;
+    grid-area: six;
+}
+.item7{
+    background-color: green;
+    grid-area: seven;
+}
+.item8{
+    background-color: green;
+    grid-area: eight;
+}

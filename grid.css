@@ -1,0 +1,29 @@
+.container{
+    height: 100vh;
+    background-color:aquamarine;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "one one one"
+    "two three five"
+    "four four five";
+}
+.item1{
+    background-color: green;
+    grid-area: one;
+}
+.item2{
+    background-color: rgb(201, 56, 56);
+    grid-area: two;
+}
+.item3{
+    background-color: yellow;
+    grid-area: three;
+}
+.item4{
+    background-color: red;
+    grid-area: four;
+}
+.item5{
+    background-color: blueviolet;
+    grid-area: five;
+}

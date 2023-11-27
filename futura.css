@@ -1,0 +1,119 @@
+.home
+    {
+        margin-top: auto;
+        background: url(banner.jpg) no-repeat center;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 670px;
+        background-size: cover;
+        color: white;
+        flex-direction: column;
+        
+    }
+    .dropdown-menu {
+        column-count: 2; 
+        column-gap: 20px; 
+        width: auto; 
+        max-width: none; 
+       }
+    
+    
+    
+    .navbar-nav {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 68px;
+    
+        
+    }
+    .nav-item a {
+        color: rgba(42, 37, 37, 0.9);
+        font-weight: 620;
+        font-size: 16px;
+        text-decoration: none; 
+        transition: color 0.5s;
+        margin-right: 13px;
+    }
+    
+ 
+    .nav-item a:hover {
+        color: rgb(202, 153, 5); 
+
+    }
+
+   .heading{
+        font-size: 5rem;
+        font-weight: 700;
+        margin-top: 120px;
+        max-width: 1500px;
+        
+      
+    }
+    .paragraph{
+          line-height: 1.7;
+          font-weight: 600;
+          margin-top: 50px;
+         
+    }
+    .btn-primary {
+        color: #fff;
+        background: linear-gradient(95.04deg, #FFAA3F 0.82%, #F35B04 97.35%);
+        border: 0; 
+        transition:  0.001ms ease;   
+    }
+      .btn-primary:hover {
+        background: #F35B04;
+      }
+    
+    .whatsapp{
+    width: 130px;
+    height: 130px;
+    position: fixed;
+    right: 10px;
+    top: 500px;
+}
+.logos{
+    height: 37px;
+   
+}
+.dropdown-menu {
+    column-count: 2;
+    column-gap: 20px; 
+    width: 550px;
+    height: 350px;
+    left: 30%;
+    transform: translateX(-30%);
+    
+     
+}
+.submenu {
+   margin-top: 10px;
+   margin-left: 20px;
+   
+  
+}
+.submenu a {
+    font-size: 13px;
+    padding-bottom: 2px; 
+}
+
+
+.dropdown-menu {
+    display: none;
+  }
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+    
+   
+    

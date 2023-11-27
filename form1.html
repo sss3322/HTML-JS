@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>FOrm1</title>
+  <style>
+    
+
+    table{
+        border-collapse: separate;
+         width: 40%;
+          }
+    th,td{
+        padding: 2px 5px 5px 15px;
+        border: 2px solid white;
+    }
+    th{
+        background-color: yellow;
+        color: red;
+        font-size: x-large;
+    }
+    td{
+        background-color: rgb(7, 229, 253);
+    }
+    button{
+       height: 30px;
+       width: 150px;
+          }
+    td.button{
+      text-align: center;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <form>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Registration Form</th>
+        </tr>
+      </thead>
+      <tbody class="table-body">
+        <tr>
+          <td>Enter Name</td>
+          <td ><input type="text" required></td>
+        </tr>
+        <tr>
+          <td>Enter Password</td>
+          <td><input type="password" required></td>
+        </tr>
+        <tr>
+          <td>Enter Address</td>
+          <td><textarea name="email" cols="20" rows="3"> </textarea></td>
+        </tr>
+        <tr>
+          <td>Select Game</td>
+          <td>
+            <div>
+              <input type="checkbox">Hockey<br>
+              <input type="checkbox">Football<br>
+              <input type="checkbox">Badminton<br>
+              <input type="checkbox">Cricket<br>
+              <input type="checkbox">Volleyball<br>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <div>
+              <input type="radio" name="gender">Male
+              <input type="radio" name="gender">Female
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Select your age</td>
+          <td>
+            <div>
+              <select>
+                <option value="" disabled selected hidden>select</option>
+                <option value="">18-24</option>
+                <option value="">25-34</option>
+                <option value="">35-44</option>
+                <option value="">45-59</option>
+                <option value="">60+</option>
+              </select>
+            </div>
+          </td>
+        </tr>
+        <tr>
+            <td>Select photo</td>
+          <td class="input-file" colspan="2"><input type="file"></td>
+        </tr>
+        <tr>
+          <td class="button" colspan="2">
+            <div class="buttons">
+              <button>Click Me</button>
+              <button type="reset">Reset</button>
+              <button>Submit Form</button>
+            </div>
+          </td>
+        </tr>
+    </table>
+   
+  </form>
+</body>
+
+</html>

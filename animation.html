@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Animation</title>
+        <style>
+            div{
+                width: 250px;
+                height: 250px;
+                background-color: greenyellow;
+                position: absolute;
+                animation-name: move;
+                animation-duration: 2s;
+            }
+            @keyframes move{
+                0%{
+                    left: 0px;
+                    top:0px;
+                }
+                25%{
+                    left: 200px;
+                    top:0px;
+                }
+                50%{
+                    top: 200px;
+                    left: 200px;
+                }
+                75%{
+                    left: 0px;
+                    top: 200px;
+
+                }
+                100%{
+                    top: 0px;
+                    left: 0px;
+
+                }
+              
+            }
+        </style>
+    </head>
+    <body>
+        <div>loreum</div>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>arrowfn</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+       
+        <script>
+            let fn = (a, b) => a * b;
+
+            function Result() {
+                document.getElementById("demo").innerHTML = fn(2, 3);
+            }
+        </script>
+
+        <button onclick="Result()">Onclick</button>
+    </body>
+</html>

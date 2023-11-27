@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Inheritance</title>
+    </head>
+    <body>
+        <script>
+            class parent{
+                test1(){
+                    document.write("test 1 invoked"+ "<br>")
+                }
+            }
+            class child extends parent{
+                test2(){
+                    document.write("test 2 invoked")
+                }
+            }
+            var p=new child()
+            p.test1()
+            p.test2()
+        </script>
+    </body>
+</html>

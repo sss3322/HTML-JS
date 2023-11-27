@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Form2</title>
+  <style>
+    
+
+    table{
+        border-collapse: collapse;
+         width: 30%;
+         height: 80vh;
+        
+          }
+    th,td{
+        text-align: center;
+    }
+    th{
+        background-color: rgb(214, 105, 21);
+        color: yellow;
+        font-size: medium;
+        height: 30px;
+          }
+    td{
+        background-color: rgb(22, 18, 18);
+        color: yellow;
+    }
+    .left-column {
+      text-align: right;
+      padding-right: 20px;
+    }
+
+    .right-column {
+      text-align: left;
+    }
+    .h{
+       text-align: start;
+       padding-left: 7px;;
+     
+    }
+    .button{
+        text-align: end;
+        padding-right: 7px;
+        height: 42px;
+       
+       
+    }
+    button{
+        border: none;
+        height:25px;
+        width: 60px;
+        color: white;
+        padding: 2px;
+    }
+   
+  </style>
+</head>
+
+<body>
+  <form>
+    <table>
+      <thead>
+        <tr>
+          <th class="h" colspan="2">Sign Up</th>
+        </tr>
+      </thead>
+      <tbody class="table-body">
+        <tr>
+          <td class="left-column">Enter Name</td>
+          <td class="right-column" ><input type="text" placeholder="Enter First Name"></td>
+        </tr>
+        <tr>
+          <td class="left-column">Last Name</td>
+          <td class="right-column"><input type="text" placeholder="Enter Last Name"></td>
+        </tr>
+        <tr>
+            <td class="left-column">Date of Birth</td>
+            <td class="right-column">
+              <div>
+                <select>
+                  <option value="" disabled selected hidden>Date</option>
+                  <option value="">01</option>
+                  <option value="">02</option>
+                  <option value="">03</option>
+                  <option value="">04</option>
+                  <option value="">05</option>
+                </select>
+                <select>
+                    <option value="" disabled selected hidden>Month</option>
+                    <option value="">01</option>
+                    <option value="">02</option>
+                    <option value="">03</option>
+                    <option value="">04</option>
+                    <option value="">05</option>
+                  </select>
+                  <select>
+                    <option value="" disabled selected hidden>Year</option>
+                    <option value="">2000</option>
+                    <option value="">2001</option>
+                    <option value="">2002</option>
+                    <option value="">2003</option>
+                    <option value="">2004</option>
+                  </select>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="left-column">Gender</td>
+            <td class="right-column">
+              <div>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="left-column">Country</td>
+            <td class="right-column">
+              <div>
+                <select>
+                  <option value="" disabled selected hidden>country</option>
+                  <option value="">India</option>
+                  <option value="">China</option>
+                  <option value="">Japan</option>
+                  <option value="">Pakistan</option>
+                  <option value="">Australia</option>
+                </select>
+                </div>
+                </td>
+                </tr>
+                <tr>
+                <td class="left-column">E-mail</td>
+                <td class="right-column"><input type="email" placeholder="Enter Email"></td>
+                  </tr>
+                  <tr>
+                    <td class="left-column">Phone</td>
+                    <td class="right-column"><input type="email" placeholder="Enter Phone"></td>
+                      </tr>
+                      <tr>
+                        <td class="left-column">Password</td>
+                        <td class="right-column"><input type="password" required></td>
+                          </tr>
+                          <tr>
+                            <td class="left-column">Confirm Password</td>
+                            <td class="right-column"><input type="password" required></td>
+                              </tr>
+        
+        <tr>
+            <div>
+         <td></td>
+         
+        <td class="right-column"><input type="checkbox">I Agree to the Terms of use</td>
+          </div>
+          </tr>
+          <th class="button"colspan="2" >
+            <div class="buttons" >
+              <button style="background-color: green;">Submit</button>
+              <button style="background-color: red; ">Cancel</button>
+            </div>
+        </th>
+        </tr>
+    </table>
+   
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>table5</title>
+   
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 6px;
+            width: 50%;
+            background-color: yellow;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        
+        
+        caption {
+            text-align: center;
+            font-weight: bold;
+        }
+        td.off {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption style="caption-side: bottom;">Daily Schedule</caption>
+      
+        <tr>
+            <th rowspan="2">Task</th>
+            <th colspan="7">Day of the week</th>
+        </tr>
+        <tr>
+            <td>Mon</td>
+            <td>Tue</td>
+            <td>Wed</td>
+            <td>Thu</td>
+            <td>Fri</td>
+            <td>Sat</td>
+            <td>Sun</td>
+        </tr>
+        <tr>
+            <td>College</td>
+            <td>Java</td>
+            <td>Web Designing</td>
+            <td>C lang</td>
+            <td>Python</td>
+            <td>Practical</td>
+            <td rowspan="2" colspan="2" class="off">OFF</td>
+        </tr>
+        <tr>
+            <td>Work</td>
+            <td colspan="5">Subject preparation and project work</td>
+        </tr>
+    </table>
+</body>
+</html>
